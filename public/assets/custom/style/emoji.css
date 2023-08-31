@@ -1,0 +1,31 @@
+.tox-tinymce
+{
+    border: 0 !important;
+    height: 54px !important;
+}
+
+.tox:not(.tox-tinymce-inline).tox-tinymce--toolbar-bottom .tox-editor-header{
+    border: 0 !important;
+}
+
+.tox .tox-editor-container
+{
+    flex-direction: row-reverse !important;
+}
+
+.tox:not(.tox-tinymce-inline) .tox-editor-header
+{
+    padding: 7px 0px 0px 0px !important;
+}
+
+.tox .tox-toolbar__group
+{
+    padding: 0 !important;
+}
+
+
+@media screen and (max-width: 480px){
+    .tox-toolbar-overlord{
+        display: none;
+    }
+}

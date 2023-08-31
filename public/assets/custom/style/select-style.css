@@ -1,0 +1,89 @@
+.select2-container .select2-selection--single {
+    height: auto !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: #70707085 !important;
+}
+
+.select2-selection__rendered div {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0.65rem 0rem !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered p{
+    margin-left: 7px !important;
+}
+
+.select2-results__option p{
+    color: #70707085 !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 9999px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 0.5rem !important;
+    right: 0.5rem !important;
+}
+.select2-results__option div{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    border-radius: 9999px !important;
+    outline: none !important;
+    padding: 4px 12px !important;
+    font-size: 0.75rem !important;
+    color: #70707085 !important;
+}
+
+.select2 .select2-container .select2-container--default{
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single{
+    border: 1px solid #9d9b9b85 !important;
+}
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single{
+    border: 1px solid #9d9b9b85 !important;
+    border-radius: 9999px !important;
+}
+
+.select2-container--open .select2-dropdown--below{
+    top: 6px !important;
+    border-top: 1px solid #9d9b9b85 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #000 transparent transparent transparent !important;
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+    border-color: transparent transparent #000 transparent !important;
+}
+
+.select2-dropdown{
+    border: 1px solid #9d9b9b85 !important;
+}
+
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: white !important;
+}
+
+#phone_code .select2-container--default .select2-selection--single{
+    border-right: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+
+#phone_code .select2-selection__arrow{
+    right: 0 !important;
+}
+
+/* #phone_code .select2-dropdown{
+    width: 15rem !important;
+} */

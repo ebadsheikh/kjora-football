@@ -1,0 +1,8 @@
+.owl-theme .owl-dots .owl-dot span {
+    width: 7px !important;
+    height: 7px !important;
+    margin: 3px 4px !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0px !important;
+}
